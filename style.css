@@ -1,0 +1,115 @@
+#inicio {
+  background-image: url("/assets/banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  opacity: 0.3;
+  z-index: 1;
+}
+#inicio p {
+  font-size: 80px;
+}
+#inicio h1 {
+  font-size: 90px;
+  margin-top: 10px;
+  text-align: center;
+  color: darkmagenta;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  color: magenta;
+  font-size: 50px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+p {
+  color: purple;
+  font-size: 20px;
+}
+
+main {
+  width: 90%;
+  margin-left: 5%;
+  align-items: center;
+}
+
+body {
+  background-color: rgb(250, 215, 236);
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 1%;
+  right: 2%;
+  width: 100%;
+  z-index: 2;
+}
+ul a {
+  text-decoration: none;
+  color: hotpink;
+}
+ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.map {
+  width: 30%;
+  height: 10%;
+}
+
+.video {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+article {
+  background-color: #cfa9ca;
+  padding: 1%;
+  border: solid 1px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+article figure {
+  border-radius: 10px;
+}
+article figure img {
+  border-radius: 30%;
+  width: 100%;
+}
+
+form {
+  width: 50%;
+  height: 50%;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 10%;
+  border: solid 1px purple;
+  display: block;
+}
+form .button {
+  color: red;
+  padding: 1%;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+}
+form input {
+  border-radius: 20px;
+  width: 50%;
+  padding: 1%;
+  border: 1px solid #ccc;
+}
+form textarea {
+  display: block;
+  width: 80%;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}/*# sourceMappingURL=style.css.map */
